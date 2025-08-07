@@ -1,0 +1,29 @@
+{
+  "name": "@comjaes/adlog-fetch",
+  "version": "1.0.0",
+  "description": "",
+  "license": "",
+  "author": {
+    "name": "com_imjs",
+    "email": "com.imjs@gmail.com"
+  },
+  "contributors": [
+    "com_imjs"
+  ],
+  "main": "dist/ezadminFetch.js",
+  "types": "dist/ezadminFetch.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "request-promise": "^4.2.6"
+  },
+  "devDependencies": {
+    "@types/request-promise": "^4.1.51"
+  }
+}
